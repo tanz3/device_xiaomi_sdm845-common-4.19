@@ -573,7 +573,6 @@ vendor/bin/qrtr-lookup|54f656d217ed12c1b7c9c8c6950c8334b53434c2
 vendor/bin/qrtr-ns|298a37fad83da32a8a7bbd914cb1afccaa079eba
 vendor/bin/qti|7ee1b06bfa51d2a8e0d76c889aea1e7a65e94069
 vendor/bin/rmt_storage|358c00cfe1713ab87b38a0444e6de6d965529a51
-vendor/bin/ssgtzd|dd07e35f7f2084de9f27bf6b720fb210371e405a
 vendor/bin/tftp_server|38847c960ca1dc54dfdec67ac4646f9e4aa37e9d
 vendor/etc/data/dsi_config.xml|85f76668d6b6f87402c534f284c286676edefa93
 vendor/etc/data/netmgr_config.xml|b670492f2a29115d5c00c1ed44d53da4d216e8a4
@@ -583,12 +582,9 @@ vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrild.rc|63f82cc56f184e598643ce827fdcc1b09773858c
-vendor/etc/init/ssgtzd.rc|140086da548acd74420c8f494c3351b4dedc1c80
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
-vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
-vendor/etc/ssg/tz_whitelist.json|c0dc4f4cfee20db5993eb5142e362cba7dfaecd6
 vendor/lib64/deviceInfoServiceModule.so|c7d4021528f3a43320d0f109a9ed5f765a6a92a2
 vendor/lib64/libconfigdb.so|9db249a0cb6f93c2a32f3c271397ead0c74a5b5b
 vendor/lib64/libhydra_common.so|830d152f34be4d9e9c32dc8991813d4223b6bd1b
