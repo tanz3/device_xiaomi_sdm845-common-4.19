@@ -85,6 +85,7 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
+camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
 
 # Charger
