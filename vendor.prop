@@ -117,6 +117,22 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 
+# GSI
+ro.miui.region=cn
+ro.cp_system_other_odex=0
+ro.nnapi.extensions.deny_on_product=true
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+ro.opa.eligible_device=true
+ro.crypto.metadata_init_delete_all_keys.enabled=false
+persist.sys.disable_rescue=true
+wifi.aware.interface=wifi-aware0
+ro.hardware.wlan.vendor=qcom
+ro.hardware.wlan.chip=39xx
+ro.hardware.wlan.mimo=1
+ro.hardware.wlan.dbs=1
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
