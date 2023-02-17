@@ -1,0 +1,1 @@
+allow nfc rootfs:file { getattr };

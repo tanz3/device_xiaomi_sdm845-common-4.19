@@ -1,0 +1,1 @@
+allow gpuservice binderfs:chr_file { ioctl };

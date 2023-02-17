@@ -1,0 +1,2 @@
+allow netd binderfs:chr_file { ioctl };
+allow netd rootfs:file { getattr };
