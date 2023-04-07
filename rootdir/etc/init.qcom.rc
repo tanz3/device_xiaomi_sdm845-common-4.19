@@ -444,6 +444,10 @@ on post-fs-data
     mkdir /data/vendor/syna/ist/ 0770 system system
     chown system system /data/vendor
 
+    # Xiaomi elliptic sensors
+    chmod 0644 /dev/elliptic0
+    chmod 0644 /dev/elliptic1
+
 on property:ro.boot.dp=0x0
     write  /sys/bus/platform/devices/c440000.qcom,spmi:qcom,pm8998@0:qcom,power-on@800/pshold_reboot 7
 
