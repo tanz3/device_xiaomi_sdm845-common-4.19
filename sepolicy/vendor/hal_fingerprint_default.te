@@ -1,3 +1,5 @@
+typeattribute hal_fingerprint_default data_between_core_and_vendor_violators;
+
 allow hal_fingerprint_default fingerprint_device:chr_file rw_file_perms;
 allow hal_fingerprint_default fingerprint_data_file:dir create_dir_perms;
 allow hal_fingerprint_default fingerprint_data_file:file create_file_perms;
@@ -16,5 +18,8 @@ allow hal_fingerprint_default sysfs_msm_subsys:file r_file_perms;
 set_prop(hal_fingerprint_default, vendor_fp_prop)
 hal_client_domain(hal_fingerprint_default, hal_perf)
 
-# Ignore all logging requests
-dontaudit hal_fingerprint storage_file:dir search;
+allow hal_fingerprint_default persist_fingerprint_file:dir create_dir_perms;
+allow hal_fingerprint_default persist_fingerprint_file:file create_file_perms;
+
+allow hal_fingerprint_default sysfs_touchpanel:dir search;
+allow hal_fingerprint_default sysfs_touchpanel:file rw_file_perms;
