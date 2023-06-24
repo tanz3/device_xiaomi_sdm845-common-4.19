@@ -1,7 +1,4 @@
-vendor_internal_prop(camera_dbg_prop)
-vendor_internal_prop(camera_ro_prop)
-
-vendor_internal_prop(thermal_engine_prop)
+vendor_internal_prop(vendor_thermal_normal_prop)
 
 vendor_internal_prop(vendor_dpps_prop)
 
