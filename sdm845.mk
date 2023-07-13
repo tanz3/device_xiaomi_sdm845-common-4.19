@@ -235,6 +235,8 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
+    libavservices_minijail.vendor \
+    libavservices_minijail_vendor \
     libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -305,9 +307,9 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0.vendor \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio.config@1.2.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.radio@1.6.vendor \
+    android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
     libjson.vendor \
@@ -337,7 +339,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
-    lib-imsvtshim \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
