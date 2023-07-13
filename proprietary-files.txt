@@ -331,12 +331,14 @@ vendor/lib64/libllvm-qcom.so|01c37f8efc8362168666fc811082dbbee14fbcbd
 
 # Graphics (Adreno firmware)
 vendor/firmware/a630_gmu.bin
-vendor/firmware/a630_sqe.fw
 vendor/firmware/a630_zap.b00
 vendor/firmware/a630_zap.b01
 vendor/firmware/a630_zap.b02
 vendor/firmware/a630_zap.elf
 vendor/firmware/a630_zap.mdt
+
+# Graphics (Adreno firmware) - from OnePlus6T
+vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
 # Graphics (Vulkan) - from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
 vendor/lib/hw/vulkan.adreno.so|a77dc4decf18a8bb0cf01d58e6901e842650de8a
