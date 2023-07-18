@@ -180,11 +180,11 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|3904e6ce6a6a551826e900eb29bc2
 vendor/lib64/vendor.qti.latency@2.0.so|a8a4c745fa3387d12509f5527e780a6cc145e3f3
 vendor/lib64/vendor.qti.latency@2.1.so|5b2612d3677166b7c170a090e09bfc7add126dea
 
-# Configstore
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
+# Configstore - from munch
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|fee9ceb0da4535e52c4fcf4976da97f535e278b6
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|da5395c304255e0d5f1f9b88f63a36ef024050af
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|46d1581f3b0d1e309cd07ba08e15da43be1fda96
 
 # Display (HDR) - from munch
 vendor/lib64/libhdr_tm.so|4be3cfff1ef40cbc6ad329b79c60881263aa6723
