@@ -786,11 +786,11 @@ vendor/lib64/libQTEEConnector_listener.so|bd2d7041c20eeeb85436696377edfbd1d302df
 vendor/lib64/libQTEEConnector_vendor.so|22c4dfe5813f6f923a30ad9470227a65a217ab4a
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|2554dc8f9763f615d9f199436ec93aa2e9ffbccd
 
-# Trusted User Interface
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# Trusted User Interface - from munch
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|772dfdebadcfb9af3e6253fd3baf6d7502394ddd
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|fd837d6c0a33a802360fa3a3b5f4d5bc6374ab5a
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|ddd34e7ef39a29f7db546e6a2bc0c3b90e13c9a0
 
 # VPP - from PNX - RKQ1.200906.002
 vendor/bin/vppservice|555301b19a86374900159423c88efd7bd9cea2f9
