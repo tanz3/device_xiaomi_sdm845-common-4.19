@@ -535,13 +535,13 @@ vendor/lib64/libOmxVpp.so|c15c36c694ccd26fa48edf9597a4da144fcea18c
 vendor/lib64/libOmxWmaDec.so|181f85d2f440c49a44573229cbc3c462cc52eccd
 vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
+# Peripheral manager - from munch
+vendor/bin/pm-proxy|f27e551138d7f612943885ac698f9f88ec1acaf9
+vendor/bin/pm-service|5be0b39d724d4d38f7b5348ca2563699139b125f
+vendor/lib/libperipheral_client.so|cb130e759ee4b6160cfafa1c35de93aa6522ef8d
+vendor/lib/libspcom.so|a5e86cf21a49efdfc25d08e54035f293f1f4c715
+vendor/lib64/libperipheral_client.so|371cc38073c9d9bf8614f992e57a5a9891691191
+vendor/lib64/libspcom.so|14f69e1c6ad4a6bbb5ea0b7e38e027ef1e7fc12a
 
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
