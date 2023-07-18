@@ -233,40 +233,63 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ad06856903b163a28135d6c8fd354258e3f0292c
 vendor/lib64/libdpmqmihal.so|67a75d6bd39f4bc825e14d21fa5b61e26ac82b22
 
-# DRM
-vendor/bin/qseecomd
-vendor/bin/seemp_healthd
-vendor/etc/init/qseecomd.rc
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libqisl.so
-vendor/lib/librpmb.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libspl.so
-vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libcpion.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libspl.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM (QSEECom) - from munch
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
+vendor/bin/qseecomd|f42ffd948df4d29d75364e81ab7f5b2bd50d437a
+vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|0148736b60218f39300df3bc7c078c17523070f4
+vendor/lib/libGPreqcancel.so|6e3a39eb893b3afd2d4be75d24c4e5635bd7681f
+vendor/lib/libGPreqcancel_svc.so|4c9af6d3cfb20b5570e72ec5111e70851a1ca46d
+vendor/lib/libQSEEComAPI.so|eb9f0594f2bb8ea2805cd5187426c7972293c075
+vendor/lib/libSecureUILib.so|a35e85fc3786a7a6114eeb9d95c872361d4fede2
+vendor/lib/libStDrvInt.so|f4fb3b5e7a7b9ad50814e1679358ac20002efbad
+vendor/lib/libcppf.so|858194235ec8d9410dbcce98b30a9233b84d16b4
+vendor/lib/libdrmfs.so|5f4e51d0561b531d459dc588a25998a9c35c456b
+vendor/lib/libdrmtime.so|d60533afd9c1d8814fc57fb2c401b89be6723e03
+vendor/lib/libops.so|4ea467ca5899ffb105e5bfd9670dac6f1ddf002f
+vendor/lib/libqisl.so|a7f25c963b14d50ef8669b32d484ccedf139d02c
+vendor/lib/librpmb.so|5c4bb0abc599f01d1dbc13de9493ead2f63dc226
+vendor/lib/libsecureui.so|a42652f4555be734cc92683be7215412471ce27e
+vendor/lib/libsecureui_svcsock.so|f47c94ecb06a9c995ed784b4cf5a5252dde4c7d7
+vendor/lib/libspl.so|ec1ae86b1727e33c87fd8c00ebe02d8734510745
+vendor/lib/libssd.so|ee783eb851ccdee5feec5af6bb495e242d736d74
+vendor/lib/libtzdrmgenprov.so|fe6db2182e97bd9dcb29dc2d1d5e41c98e7902a0
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|c4d562fd0fad4cd3b926739832d117661df780d9
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|978a49f5ac5beeea37f21fa9cf6d26d4cc3d6652
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|75b825de9d3f4401936caac7a815f0062225b23a
+vendor/lib64/libQSEEComAPI.so|7e52f5f978861fb993955653c4d289d62937504e
+vendor/lib64/libSecureUILib.so|c87439b983b56804530e1e6b4f7e8c312ebdd94c
+vendor/lib64/libStDrvInt.so|6b1882e0a903a5bf1cfc9a4da0e1705073b7ceb8
+vendor/lib64/libdrmfs.so|587f73b4ffec2bb205e9647bb7b2e0947c21ad8c
+vendor/lib64/libdrmtime.so|f74a243d32606e69dc7c424eaecb19dcc7ee9605
+vendor/lib64/libops.so|17439c5decb8e42b0b6a747bf73c263ec0ea4cb1
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librpmb.so|e7b309bde30c76963b7164094a2df1cfd4c43fc0
+vendor/lib64/libsecureui.so|7b08568b5d548d543a3e3be80845d45d82fbdb01
+vendor/lib64/libsecureui_svcsock.so|f15e94084dd66745763696af3c07cef7681ea98c
+vendor/lib64/libspl.so|e2b3e2dd28b0eee567d72de696cd1e01288ae06f
+vendor/lib64/libssd.so|0d037418e3bdc6d9ba94ce7020a04e85a06fab96
+vendor/lib64/libtzdrmgenprov.so|16b438118f53ae30889286b66cbf47a9c404cb30
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|ff4a69d173e6e6196fb83e86087f4387874bc95d
+
+# DRM (OEM Crypto API) - from munch
+vendor/lib/libcpion.so|aa307352edd57b4e0378e5905862d79beee23d4a
+vendor/lib/libminkdescriptor.so|ce005f41fcfa5834d95075c2ab45dcb4b4638189
+vendor/lib/liboemcrypto.so|970dae9e49cef924ae51823950ffa926d6a78cb1
+vendor/lib/libtrustedapploader.so|3d917acae6426f26d38e6aacd21e55b67b42e4d4
+vendor/lib64/libcpion.so|19fb60c620d91e0252596165f42fc6277f7e1fb3
+vendor/lib64/libminkdescriptor.so|7237570df0118124564a85a34a387e9cba7e3cd3
+vendor/lib64/liboemcrypto.so|1951f421a230018a800ac32ef0efeca27a305a52
+vendor/lib64/libtrustedapploader.so|030366cf9b29f9beacea371f1c2a8781664be851
+
+# DRM (Widevine) - from munch
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07b8d21fb76abd377428a6d1b52d6aadfc5892a1
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib64/libwvhidl.so|3052f977688685861ec929e2b36a63980cae0337
+vendor/lib64/mediadrm/libwvdrmengine.so|0bf46f9297797c8ce7e8f6f4302b8c33db3d7e6b
 
 # ESE
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
@@ -761,13 +784,6 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-
-# Widevine DRM
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
 
 # VPP - from PNX - RKQ1.200906.002
 vendor/bin/vppservice|555301b19a86374900159423c88efd7bd9cea2f9
