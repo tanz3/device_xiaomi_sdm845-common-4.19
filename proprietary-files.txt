@@ -469,11 +469,12 @@ vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
-# Mlipay
-vendor/bin/mlipayd@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/lib64/libmlipay.so
-vendor/lib64/libmlipay@1.1.so
+# Mlipay - from munch
+vendor/bin/mlipayd@1.1|9f41a62c62f584c4bf4a52115fc09678b163ad00
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
+-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml|27aaea2ab58ace6555a634dc60ea062736342eb4
+vendor/lib64/libmlipay.so|4ed4ee4879fcd71dda4a5425c71ec099231d122d
+vendor/lib64/libmlipay@1.1.so|c514d99addea1d94d24645b9560681b2a89b16fa
 
 # Neural networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
