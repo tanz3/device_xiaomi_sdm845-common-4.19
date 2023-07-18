@@ -763,12 +763,12 @@ vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
-vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so
+# Time services - from munch
+-vendor/app/TimeService/TimeService.apk|dbce138ec22510d2658ef9ce2bea291dc1f495eb
+vendor/bin/time_daemon|58de210cc26a113e9b7d4928ecd16709bb68bbd8
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib/libtime_genoff.so|dcc2eac87e9cab8ad35d3ef7ef5f1f7f5076ebf0
+vendor/lib64/libtime_genoff.so|3c2f96d4e75b29add42046e4d1ca3205e2447eeb
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
