@@ -78,19 +78,27 @@ vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libdirac.so
 vendor/lib64/soundfx/libshoebox.so
 
-# Bluetooth (A2DP)
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib/btaudio_offload_if.so
-vendor/lib/libbluetooth_audio_session_qti.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/btaudio_offload_if.so
-vendor/lib64/libbluetooth_audio_session_qti.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+# Bluetooth (A2DP) - from munch - RKQ1.211001.001
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|500b3110a8927c43c4a2e80f458e706e7d4de200
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|487731ce0f11afb09e247f111b10b74c78e20eeb
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|1a140b877176e2d0b6c443e7aa2339b01fddeab6
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|9ed2eabab975b2f7b3b635a98f9a69cf3355daee
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|05f3703c77f19a0e4bb3e4f1ca850de64e834b46
+vendor/lib/btaudio_offload_if.so|e853c8464847d52799aa7369193c9cadba003b2c
+vendor/lib/libbluetooth_audio_session_qti.so|be256b5aa893c87a763be8974c2707d0a8efe90a
+vendor/lib/libbluetooth_audio_session_qti_2_1.so|65dcc063834980bbe6d18a6de326134c36a3bba7
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|33801f28c861c1c8556fa5daad26323e48a9c529
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|7b7135e7947366d0028410bdb5ffa57cdbe58ef6
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8f893c09c21ae2935744449e9a0d789ae06980f3
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|bcaa0280a651aa419aa1df45b8cd61f278251ad3
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|aee31162b5d16ecd03c5ff86c18dcafe3229b0fb
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|dc4fc836969f481ab59988c77fa9fa162900ec8b
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|ad2e0a054d9451d6e14fcf651c02b6a1fae6ce5f
+vendor/lib64/btaudio_offload_if.so|ad102b5eb1b1ba715e7fc1420eaa253d6544ffad
+vendor/lib64/libbluetooth_audio_session_qti.so|4ca8583cafee717795cc1fefd026759bb496850a
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|f45c5434f61a27d2dd47034e379dd9f8b92b5b56
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|949e8e8c6fde83516d9103ae53e87ecd3a8b6eb6
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|dfb5d4ce5e2f8b59b1d74f7661e75327e4187d78
 
 # CDSP
 vendor/bin/cdsprpcd
