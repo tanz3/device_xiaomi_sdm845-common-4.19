@@ -141,22 +141,26 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.sdm845 \
-    hwcomposer.sdm845 \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
     libqdMetaData.system \
-    libtinyxml \
     memtrack.sdm845 \
-    vendor.display.config@1.0.vendor \
+    vendor.display.config@1.9.vendor \
     vendor.display.config@2.0 \
-    vendor.qti.hardware.display.allocator@1.0-service \
-    vendor.qti.hardware.display.config-V5-ndk
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.config-V5-ndk \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -310,10 +314,6 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
-
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
