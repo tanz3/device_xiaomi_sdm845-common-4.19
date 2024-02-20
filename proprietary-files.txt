@@ -1,4 +1,4 @@
-# Common proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version, unless pinned
+# Common proprietary files - from polaris's MIUI package V12.5.1.0.QDGCNXM China stable version, unless pinned
 # FP4: Fairphone/FP4eea/FP4:13/TKQ1.230127.002/TP1V:user/release-keys
 
 # ADSP
@@ -332,7 +332,7 @@ vendor/firmware/a630_sqe.fw|09a86618d0c8282bba3ed85774e9841fb3230826
 vendor/lib/hw/vulkan.adreno.so|8b22d5236885e3b0110b21163a8bb65bcf3b67e7
 vendor/lib64/hw/vulkan.adreno.so|e259809354273562b4b7f1c8c5a78983c68ef8da
 
-# Hotword enrollment
+# Hotword enrollment - from beryllium V12.0.3.0.QEJMIXM
 product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|1cbc6ae6490cfc6e16619773809b9afcc9998f91;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk|24b4885a1f9194c65f378a2afd8e08b4b11842d8;PRESIGNED
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
@@ -695,6 +695,7 @@ vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
+vendor/lib/libsns_registry_skel.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
@@ -706,6 +707,7 @@ vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
